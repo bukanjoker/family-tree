@@ -1,0 +1,111 @@
+body {
+    font-family: 'Varela Round' !important;
+    line-height: normal !important;
+}
+
+a.no-style:hover {
+    text-decoration: none;
+    color: #17a2b8;
+}
+
+.text-color-primary, .text-color-primary a {
+    color: rgb(61, 61, 61);
+}
+
+.app-container {
+    max-width: 420px;
+    margin: auto;
+}
+
+#sidenav {
+    display: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.sidenav-inner {
+    background-color: #ffffff;
+    padding-top: 60px;
+    position: relative;
+    height: 100%;
+    width: 250px;
+}
+
+.sidenav-menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    display: block;
+}
+
+.sidenav-menu a:hover {
+    color: #cecece;
+    text-decoration: none;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.navbar-fixed-top {
+  position: fixed !important;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  padding: 16px 32px 8px 32px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.image-sm {
+    border-radius: 50%; 
+    border: solid 1px #000;
+    width: 48px; 
+    height: 48px; 
+    margin: auto;
+    background-size: cover;
+}
+
+.image-md {
+    border-radius: 50%; 
+    border: solid 1px #000;
+    width: 72px; 
+    height: 72px; 
+    margin: auto;
+    background-size: cover;
+}
+
+.image-lg {
+    border-radius: 50%; 
+    border: solid 1px #000;
+    width: 120px; 
+    height: 120px; 
+    margin: auto;
+    background-size: cover;
+}
+
+.text-small {
+    font-size: 0.8rem;
+}
+
+.text-medium {
+    font-size: 14px;
+}
