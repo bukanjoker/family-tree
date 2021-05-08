@@ -49,7 +49,7 @@
 @section('page-content')
     <div class="image-lg mb-2" style="background-image: url('/images/sample-photo.png')"></div>
     <div class="text-center">
-        <button class="btn btn-info btn-sm">Edit</button>
+        <a href="/member-management" class="btn btn-info btn-sm text-white">Edit</a>
     </div>
     <div class="mt-4 mb-4">
         <div class="row mb-1">
@@ -70,6 +70,6 @@
         </div>
     </div>
     @include('partial.listSmall', ['title'=> $data->gender == 'L'? 'Wife' : 'Husband', 'data'=> $couple, 'redirect'=>false])
-    @include('partial.listSmall', ['title'=>'Children', 'data'=> $children, 'redirect'=>true])
-    @include('partial.listSmall', ['title'=>'Parents', 'data'=> $parent, 'redirect'=>true])
+    @include('partial.listSmall', ['title'=>'Children', 'data'=> $children, 'redirect'=>'?code=twqe24'])
+    @include('partial.listSmall', ['title'=>'Parents', 'data'=> $parent, 'redirect'=>'?code=twqe24'])
 @endsection

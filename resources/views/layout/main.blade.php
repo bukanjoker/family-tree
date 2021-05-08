@@ -13,7 +13,7 @@
 @yield('style')
 
 <body>
-    <div class="app-container text-color-primary p-3">
+    <div class="app-container text-color-primary">
         <nav class="navbar-fixed-top d-flex justify-content-between">
             <div class="h5" onclick="toggleNav()">
                 <i class="fa fa-bars clickable"></i>

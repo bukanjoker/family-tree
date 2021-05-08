@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::get('/member', function () {
     return view('pages.memberDetail');
 });
+Route::get('/member-management', function () {
+    return view('pages.memberManagement');
+});
 Route::get('/search', function() {
     return view('pages.search');
 });

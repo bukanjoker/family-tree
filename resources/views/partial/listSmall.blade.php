@@ -17,7 +17,7 @@
         </div>
         <div class="col-3">
             @if ($redirect)
-                <button class="mt-2 btn btn-info btn-sm">View</button>
+                <a href="/{{$redirect}}" class="mt-2 btn btn-info btn-sm text-white">View</a>
             @endif
         </div>
     </div>

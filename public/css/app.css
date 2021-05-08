@@ -15,6 +15,7 @@ a.no-style:hover {
 .app-container {
     max-width: 420px;
     margin: auto;
+    padding: 1rem !important;
 }
 
 #sidenav {
@@ -108,4 +109,14 @@ a.no-style:hover {
 
 .text-medium {
     font-size: 14px;
+}
+
+@media only screen and (max-width: 426px) {
+    .navbar-fixed-top {
+        padding: 16px 20px 8px 20px;
+    }
+
+    .app-container {
+        padding: 0.3rem !important;
+    }
 }
